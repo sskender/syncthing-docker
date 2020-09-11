@@ -12,7 +12,7 @@ services:
       - syncthing_data:/var/syncthing
 
 volumes:
-  db:
+  syncthing_data:
     driver: local
     driver_opts:
       type: none
